@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <footer className="flex-shrink-0 h-16 bg-cyan-900 flex mt-auto items-center text-white">
+        <footer className="flex-shrink-0 h-16 bg-cyan-900 flex mt-auto items-center text-white w-full">
             <div className="flex mr-auto justify-center items-center text-sm text-white mx-2">
                 Mamane Hassane - 2024
             </div>
