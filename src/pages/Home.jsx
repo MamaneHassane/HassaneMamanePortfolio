@@ -27,7 +27,7 @@ const Home = () => {
                                 </text>
                             
                                 <text className="mx-4 text-sm italic text-cyan-900">
-                                    Junior and agile software engineer doing SpringBoot, react, and angular
+                                    Junior and agile software engineer doing SpringBoot, ReactJS, and Angular
                                 </text>
                                 <div className="flex flex-row mt-2 ml-2">
                                     <a 
