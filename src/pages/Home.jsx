@@ -2,6 +2,15 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import pexelsImage from "../images/pexels-kevin-bidwell-1373100.jpg";
+import springImage from"../images/spring.png"
+import dotnetImage from "../images/dotnet_core.png"
+import nodejsImage from "../images/nodejs.png"
+import angularImage from "../images/angular.png"
+import reactImage from "../images/react.png";
+import linuxImage from "../images/linux.png"
+import dockerImage from "../images/docker.png"
+import postgreImage from "../images/postgresql.png"
+import mongoImage from "../images/mongo.png"
 import { Link } from "react-router-dom";
 
 
@@ -49,10 +58,10 @@ const Home = () => {
 
                         </div>
                         
-                        <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1 bg-green-500">
-                            <div className="bg-white flex flex-row my-1 mx-1">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1">
+                            <div className="bg-white flex flex-col my-1 mx-1">
 
-                                <div className="grid grid-cols-2">
+                                <div className="grid grid-cols-2 h-1/2">
                                     <text className="text-xl sm:text-2xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
                                         +10 projects done
                                     </text>
@@ -61,10 +70,55 @@ const Home = () => {
                                     </text>
                                 </div>
 
-                            </div>
-                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 items-center justify-center">
+                                        My contact : <a className="p-2 bg-red-400 mx-1 text-white rounded-full" href="mailto:hassane.mamane017@gmail.com">hassane.mamane017@gmail.com</a>
+                                </text>
 
                             </div>
+                            <div className="grid grid-cols-4 sm:grid-cols-5">
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={springImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={angularImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={nodejsImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={dotnetImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={reactImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={mongoImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={postgreImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
+                                <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-24 xl:h-24">
+                                    <img src={dockerImage} alt="" className="rounded-full w-full h-full object-cover flex" />
+                                </div>
+                            </div>
+
+                            </div>
+                            
                         </div>
 
                     </div>

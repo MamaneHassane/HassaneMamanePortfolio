@@ -56,14 +56,14 @@ const Header = () => {
         </ul>
 
         <div className="flex w-24 ml-auto mr-2 mt-1">
-          <Link className="mb-1 flex flex-row w-full items-center border-2 rounded-lg py-0 px-1 font-bold text-sm hover:text-green-400 text-cyan-400 hover:bg-white bg-gray-100 ">
-            <text className="text-sm flex-shrink-0 flex">Let's talk</text>
+          <button  className="mb-1 flex flex-row w-full items-center border-2 rounded-lg py-0 px-1 font-bold text-sm hover:text-green-400 text-cyan-400 hover:bg-white bg-gray-100 ">
+            <a href="mailto:hassane.mamane017@gmail.com" className="text-sm flex-shrink-0 flex">Let's talk</a>
             <CIcon
               icon={cilCommentBubble}
               size="sm"
               className="mt-1 ml-1 w-12"
             />
-          </Link>
+          </button>
         </div>
       </header>
 
