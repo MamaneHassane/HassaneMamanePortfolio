@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="flex flex-col h-screen w-screen"> 
             <Header/>    
-                <div className="flex flex-row w-screen h-screen">
+                <div className="flex flex-row w-screen h-auto transform-translate ease-in duration-500">
                     <div className="hidden lg:flex flex-col mt-2 h-screen w-64">
 
                     </div>
@@ -52,8 +52,17 @@ const Home = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1 bg-green-500">
                             <div className="bg-white flex flex-row my-1 mx-1">
 
+                                <div className="grid grid-cols-2">
+                                    <text className="text-xl sm:text-2xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
+                                        +10 projects done
+                                    </text>
+                                    <text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
+                                        Conception is the key for fastest and reliable softwares
+                                    </text>
+                                </div>
+
                             </div>
-                            <div className="bg-white flex flex-row my-1 mx-1">
+                            <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
 
                             </div>
                         </div>
