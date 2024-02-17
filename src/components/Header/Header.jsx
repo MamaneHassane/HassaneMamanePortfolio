@@ -10,7 +10,7 @@ import {
   cilList,
   cilNotes,
 } from "@coreui/icons";
-import './styles/Header.css'
+import './Header.css'
 const Header = () => {
   const [topBarVisible, setTopBarVisible] = useState(false);
   const toogleTopBar = () => {
