@@ -39,8 +39,8 @@ const Home = () => {
               </text>
 
               <text className="mx-4 text-sm italic text-cyan-900">
-                Junior and agile software engineer doing SpringBoot, ReactJS,
-                and Angular
+                Junior and agile software engineer doing ASP.NET, Angular
+                and ReactJS
               </text>
               <div className="flex flex-row mt-2 ml-2">
                 <a
