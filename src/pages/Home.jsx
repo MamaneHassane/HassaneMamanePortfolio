@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import TechCard from "../components/TechCard/TechCard";
 import pexelsImage from "../images/pexels-kevin-bidwell-1373100.jpg";
-import springImage from "../images/spring.png";
 import dotnetImage from "../images/dotnet_core.png";
-import nodejsImage from "../images/nodejs.png";
 import angularImage from "../images/angular.png";
-import reactImage from "../images/react.png";
 import dockerImage from "../images/docker.png";
 import postgreImage from "../images/postgresql.png";
+import sqlServerImage from "../images/sqlserver.png";
+import azureDevopsImage from "../images/azuredevops.png";
 import mongoImage from "../images/mongo.png";
-import { Link } from "react-router-dom";
+import tailwindImage from "../images/tailwind.png";
+import githubImage from "../images/github.png";
 import { downloadCV } from "../services/DownloadCVService";
 
 const Home = () => {
@@ -79,7 +79,7 @@ const Home = () => {
                   +10 projects done
                 </text>
                 <text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
-                  Conception is the key for fastest and reliable softwares
+                  ⚙ Conception is the key for fastest and reliable softwares, technical skills are as much important 🛠⚒ 😉 !!
                 </text>
               </div>
 
@@ -94,11 +94,12 @@ const Home = () => {
               </text>
             </div>
             <div className="grid grid-cols-4 sm:grid-cols-5">
-              <TechCard image = {springImage}/>
-              <TechCard image = {angularImage}/>
-              <TechCard image = {nodejsImage}/>
               <TechCard image = {dotnetImage}/>
-              <TechCard image = {reactImage}/>
+              <TechCard image = {angularImage}/>
+              <TechCard image = {tailwindImage}/>
+              <TechCard image = {githubImage}/>
+              <TechCard image = {azureDevopsImage}/>
+              <TechCard image = {sqlServerImage}/>
               <TechCard image = {mongoImage}/>
               <TechCard image = {postgreImage}/>
               <TechCard image = {dockerImage}/>
