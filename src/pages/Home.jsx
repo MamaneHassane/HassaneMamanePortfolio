@@ -57,7 +57,7 @@ const Home = () => {
                 </a>
                 <button
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-red-400 hover:text-white border-2 border-gray-400 hover:border-red-400 rounded-lg font-bold"
-                  onClick={()=>downloadCV("Mamane-Hassane-CV")}
+                  onClick={()=>downloadCV("Mamane-Hassane-CV Generaliste-Français")}
                 >
                   See CV
                 </button>
