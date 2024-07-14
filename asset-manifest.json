@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hassanemamaneportfolio/static/css/main.04955189.css",
-    "main.js": "/hassanemamaneportfolio/static/js/main.3e6155f9.js",
-    "static/js/787.432afb90.chunk.js": "/hassanemamaneportfolio/static/js/787.432afb90.chunk.js",
-    "static/media/pexels-kevin-bidwell-1373100.jpg": "/hassanemamaneportfolio/static/media/pexels-kevin-bidwell-1373100.1e608a358791b7e5a14f.jpg",
-    "static/media/docker.png": "/hassanemamaneportfolio/static/media/docker.46d429b1711d3ffe6acf.png",
-    "static/media/azuredevops.png": "/hassanemamaneportfolio/static/media/azuredevops.10832a55b5e6faa095ea.png",
-    "static/media/tailwind.png": "/hassanemamaneportfolio/static/media/tailwind.cd46ce149f9fca9ab099.png",
-    "static/media/github.png": "/hassanemamaneportfolio/static/media/github.53b6d9c9a2ae8ff6e24e.png",
-    "index.html": "/hassanemamaneportfolio/index.html",
-    "main.04955189.css.map": "/hassanemamaneportfolio/static/css/main.04955189.css.map",
-    "main.3e6155f9.js.map": "/hassanemamaneportfolio/static/js/main.3e6155f9.js.map",
-    "787.432afb90.chunk.js.map": "/hassanemamaneportfolio/static/js/787.432afb90.chunk.js.map"
+    "main.css": "/HassaneMamanePortfolio/static/css/main.04955189.css",
+    "main.js": "/HassaneMamanePortfolio/static/js/main.ad3c4512.js",
+    "static/js/787.432afb90.chunk.js": "/HassaneMamanePortfolio/static/js/787.432afb90.chunk.js",
+    "static/media/pexels-kevin-bidwell-1373100.jpg": "/HassaneMamanePortfolio/static/media/pexels-kevin-bidwell-1373100.1e608a358791b7e5a14f.jpg",
+    "static/media/docker.png": "/HassaneMamanePortfolio/static/media/docker.46d429b1711d3ffe6acf.png",
+    "static/media/azuredevops.png": "/HassaneMamanePortfolio/static/media/azuredevops.10832a55b5e6faa095ea.png",
+    "static/media/tailwind.png": "/HassaneMamanePortfolio/static/media/tailwind.cd46ce149f9fca9ab099.png",
+    "static/media/github.png": "/HassaneMamanePortfolio/static/media/github.53b6d9c9a2ae8ff6e24e.png",
+    "index.html": "/HassaneMamanePortfolio/index.html",
+    "main.04955189.css.map": "/HassaneMamanePortfolio/static/css/main.04955189.css.map",
+    "main.ad3c4512.js.map": "/HassaneMamanePortfolio/static/js/main.ad3c4512.js.map",
+    "787.432afb90.chunk.js.map": "/HassaneMamanePortfolio/static/js/787.432afb90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04955189.css",
-    "static/js/main.3e6155f9.js"
+    "static/js/main.ad3c4512.js"
   ]
 }
