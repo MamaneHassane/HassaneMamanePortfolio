@@ -83,7 +83,7 @@ const Home = () => {
                 </text>
               </div>
 
-              <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 my-4 lg:my-2 items-center justify-center">
+              <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 my-2 items-center justify-center">
                 My contact :{" "}
                 <a
                   className="p-2 bg-red-400 mx-1 text-white rounded-full"
