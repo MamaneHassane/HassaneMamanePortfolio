@@ -12,6 +12,7 @@ import azureDevopsImage from "../images/azuredevops.png";
 import mongoImage from "../images/mongo.png";
 import tailwindImage from "../images/tailwind.png";
 import githubImage from "../images/github.png";
+import springImage from "../images/spring.png";
 import { downloadCV } from "../services/DownloadCVService";
 
 const Home = () => {
@@ -39,8 +40,7 @@ const Home = () => {
               </text>
 
               <text className="mx-4 text-sm italic text-cyan-900">
-                Junior and agile software engineer doing ASP.NET, Angular
-                and ReactJS
+                Junior and agile software engineer doing essentialy ASP.NET, Angular and Spring
               </text>
               <div className="flex flex-row mt-2 ml-2">
                 <a
@@ -83,7 +83,7 @@ const Home = () => {
                 </text>
               </div>
 
-              <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 items-center justify-center">
+              <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 my-4 lg:my-2 items-center justify-center">
                 My contact :{" "}
                 <a
                   className="p-2 bg-red-400 mx-1 text-white rounded-full"
@@ -95,6 +95,7 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-4 sm:grid-cols-5">
               <TechCard image = {dotnetImage}/>
+              <TechCard image = {springImage}/>
               <TechCard image = {angularImage}/>
               <TechCard image = {tailwindImage}/>
               <TechCard image = {githubImage}/>
