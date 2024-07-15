@@ -1,22 +1,35 @@
-import React from "react";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import TechCard from "../components/TechCard/TechCard";
+import * as React from "react";
+// @ts-ignore
+import Header from "../components/Header/Header.tsx";
+// @ts-ignore
+import Footer from "../components/Footer/Footer.tsx";
+// @ts-ignore
+import TechCard from "../components/TechCard/TechCard.tsx";
+// @ts-ignore
 import pexelsImage from "../images/pexels-kevin-bidwell-1373100.jpg";
-import dotnetImage from "../images/dotnet_core.png";
-import angularImage from "../images/angular.png";
-import dockerImage from "../images/docker.png";
-import postgreImage from "../images/postgresql.png";
-import sqlServerImage from "../images/sqlserver.png";
-import azureDevopsImage from "../images/azuredevops.png";
-import mongoImage from "../images/mongo.png";
-import tailwindImage from "../images/tailwind.png";
-import githubImage from "../images/github.png";
-import springImage from "../images/spring.png";
-import { downloadCV } from "../services/DownloadCVService";
+// @ts-ignore
+import dotnetImage from "../images/techs/dotnet_core.png";
+// @ts-ignore
+import angularImage from "../images/techs/angular.png";
+// @ts-ignore
+import dockerImage from "../images/techs/docker.png";
+// @ts-ignore
+import postgreImage from "../images/techs/postgresql.png";
+// @ts-ignore
+import sqlServerImage from "../images/techs/sqlserver.png";
+// @ts-ignore
+import azureDevopsImage from "../images/techs/azuredevops.png";
+// @ts-ignore
+import mongoImage from "../images/techs/mongo.png";
+// @ts-ignore
+import tailwindImage from "../images/techs/tailwind.png";
+// @ts-ignore
+import githubImage from "../images/techs/github.png";
+// @ts-ignore
+import springImage from "../images/techs/spring.png";
+import {Link} from "react-router-dom";
 
 const Home = () => {
-
   return (
     <div className="flex flex-col h-screen w-screen">
       <Header />
@@ -57,9 +70,8 @@ const Home = () => {
                 </a>
                 <button
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-red-400 hover:text-white border-2 border-gray-400 hover:border-red-400 rounded-lg font-bold"
-                  onClick={()=>downloadCV("Mamane-Hassane-CV Generaliste-Français")}
                 >
-                  See CV
+                  <Link to="/cv">See CV</Link>
                 </button>
               </div>
             </div>
@@ -114,4 +126,7 @@ const Home = () => {
   );
 };
 
-export default Home;
+export {
+  Home
+}
+

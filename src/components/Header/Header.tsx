@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import CIcon from "@coreui/icons-react";
 import {
@@ -42,16 +43,16 @@ const Header = () => {
             </Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
-            <Link className="">Education</Link>
+            <Link className="" to={"/"}>Education</Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
-            <Link className="">Projects</Link>
+            <Link className="" to={"/"}>Projects</Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
-            <Link className="">Experience</Link>
+            <Link className="" to={"/"}>Experience</Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
-            <Link className="">Fun</Link>
+            <Link className="" to={"/"}>Fun</Link>
           </li>
         </ul>
 
@@ -78,25 +79,25 @@ const Header = () => {
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center">
+            <Link className="flex flex-row items-center" to={"/"}>
               <CIcon icon={cilNotes} className="h-4 mx-1  text-red-400" />
               Education
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center">
+            <Link className="flex flex-row items-center" to={"/"}>
               <CIcon icon={cilLayers} className="h-4 mx-1  text-red-400" />
               Projects
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center">
+            <Link className="flex flex-row items-center" to={"/"}>
               <CIcon icon={cilLaptop} className="h-4 mx-1  text-red-400" />
               Experience
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center">
+            <Link className="flex flex-row items-center" to={"/"}>
               <CIcon icon={cilHappy} className="h-4 mx-1  text-red-400" />
               Fun
             </Link>
