@@ -95,17 +95,17 @@ const Home = () => {
                 </text>
               </div>
 
-              <text className="flex flex-1 font-bold text-cyan-900 text-md ml-2 my-2 items-center justify-center">
+              <text className="flex flex-1 font-bold text-cyan-900 text-sm lg:text-md ml-2 my-2 items-center justify-center">
                 My contact :{" "}
                 <a
-                  className="p-2 bg-red-400 mx-1 text-white rounded-full"
+                  className="p-2 bg-red-400 mx-1 text-white text-sm lg:text-md rounded-full"
                   href="mailto:hassane.mamane017@gmail.com"
                 >
                   hassane.mamane017@gmail.com
                 </a>
               </text>
             </div>
-            <div className="grid grid-cols-4 sm:grid-cols-5">
+            <div className="grid grid-cols-5">
               <TechCard image = {dotnetImage}/>
               <TechCard image = {springImage}/>
               <TechCard image = {angularImage}/>
