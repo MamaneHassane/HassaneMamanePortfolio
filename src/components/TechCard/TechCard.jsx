@@ -3,7 +3,7 @@ import React from "react"
 const TechCard = ({image}) => {
     return (
         <div className="bg-white flex flex-row flex-shrink my-1 mx-1">
-            <div className="ml-2 rounded-full w-20 h-20 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-18 xl:h-18">
+            <div className="ml-2 rounded-full w-16 h-16 md:w-18 md:h-18">
                 <img
                 src={image}
                 alt=""
