@@ -27,6 +27,14 @@ import tailwindImage from "../images/techs/tailwind.png";
 import githubImage from "../images/techs/github.png";
 // @ts-ignore
 import springImage from "../images/techs/spring.png";
+// @ts-ignore
+import pandasImage from "../images/techs/pandas.png";
+// @ts-ignore
+import pythonImage from "../images/techs/python.jpg";
+// @ts-ignore
+import powerbiImage from "../images/techs/powerbi.jpg";
+// @ts-ignore
+import plotlyImage from "../images/techs/plotly.png";
 import {Link} from "react-router-dom";
 
 const Home = () => {
@@ -46,32 +54,32 @@ const Home = () => {
                   href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack"
                   className="px-1 py-0 border-2 border-green-400 bg-green-400 text-white rounded-full cursor-pointer"
                 >
-                  full-stack
+                  full-stack & Data
                 </a>
                 <br />
                 engineer
               </text>
 
               <text className="mx-4 text-sm italic text-cyan-900">
-                Junior and agile software engineer doing essentialy ASP.NET, Angular and Spring
+                Ingénieur Génie Logiciel et étudiant en IA et Data
               </text>
               <div className="flex flex-row mt-2 ml-2">
                 <a
                   className="p-2  bg-indigo-900 text-white border-2 border-indigo-900 rounded-lg font-bold"
-                  href="tel:+212 771-271002"
+                  href="tel:+33 601-240139"
                 >
-                  Call me
+                  Appelez moi !
                 </a>
                 <a
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-gray-400 hover:text-white border-2 border-gray-400 rounded-lg font-bold"
                   href="https://github.com/MamaneHassane?tab=repositories"
                 >
-                  Projects
+                  Projets
                 </a>
                 <button
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-red-400 hover:text-white border-2 border-gray-400 hover:border-red-400 rounded-lg font-bold"
                 >
-                  <Link to="/cv">See CV</Link>
+                  <Link to="/cv">Voir CV</Link>
                 </button>
               </div>
             </div>
@@ -87,11 +95,11 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1">
             <div className="bg-white flex flex-col my-1 mx-1">
               <div className="grid grid-cols-2 h-1/2">
-                <text className="text-xl sm:text-2xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
-                  +10 projects done
+                <text className="text-xl sm:text-xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
+                  De l'expérience ? Visitez mon CV et mon Github 😉
                 </text>
                 <text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
-                  ⚙ Conception is the key for fastest and reliable softwares, technical skills are as much important 🛠⚒ 😉 !!
+                  ⚙ Ingénieur logiciel en quête d'innovation – prêt à donner vie à vos projets Data, IA et Full-stack en alternance ! 🛠⚒ 😉 !!
                 </text>
               </div>
 
@@ -106,14 +114,14 @@ const Home = () => {
               </text>
             </div>
             <div className="grid grid-cols-5">
+              <TechCard image = {pythonImage}/>
+              <TechCard image = {pandasImage}/>
+              <TechCard image = {plotlyImage}/>
+              <TechCard image = {powerbiImage}/>
+              <TechCard image = {githubImage}/>
               <TechCard image = {dotnetImage}/>
               <TechCard image = {springImage}/>
               <TechCard image = {angularImage}/>
-              <TechCard image = {tailwindImage}/>
-              <TechCard image = {githubImage}/>
-              <TechCard image = {azureDevopsImage}/>
-              <TechCard image = {sqlServerImage}/>
-              <TechCard image = {mongoImage}/>
               <TechCard image = {postgreImage}/>
               <TechCard image = {dockerImage}/>
             </div>

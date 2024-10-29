@@ -4,8 +4,8 @@ enum languages {
 }
 
 enum fields  {
-    dnt_ang = "dotnet-angular",
-    spr_rct = "spring-react"
+    data_ia = "data_ia",
+    full_stack = "full_stack"
 }
 
 export {

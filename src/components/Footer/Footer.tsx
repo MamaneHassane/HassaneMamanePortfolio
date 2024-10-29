@@ -29,7 +29,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div
-                    className="w-12 h-12 rounded-full mr-2 flex justify-center items-center bg-red-500 hover:bg-red-300 hover:cursor-pointer">
+                    className="w-12 h-12 rounded-full flex justify-center items-center bg-red-500 hover:bg-red-300 hover:cursor-pointer">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                              className="fill-current">
