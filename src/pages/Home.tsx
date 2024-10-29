@@ -94,17 +94,17 @@ const Home = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1">
             <div className="bg-white flex flex-col my-1 mx-1">
-              <div className="grid grid-cols-2 h-1/2">
+              <div className="grid grid-cols-2">
                 <text className="text-xl sm:text-xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
                   De l'expérience ? Visitez mon CV et mon Github 😉
                 </text>
                 <text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
-                  ⚙ Ingénieur logiciel en quête d'innovation – prêt à donner vie à vos projets Data, IA et Full-stack en alternance ! 🛠⚒ 😉 !!
+                  ⚙ Ingénieur logiciel en quête d'innovation – prêt à donner vie à vos projets Data, IA et Full-stack en alternance ! 😉
                 </text>
               </div>
 
-              <text className="flex flex-1 font-bold text-cyan-900 text-sm lg:text-md ml-2 my-2 items-center justify-center">
-                My contact :{" "}
+              <text className="flex flex-1 font-bold text-cyan-900 text-sm lg:text-md ml-2 items-center justify-center">
+                Mon mail :{" "}
                 <a
                   className="p-2 bg-red-400 mx-1 text-white text-sm lg:text-md rounded-full"
                   href="mailto:hassane.mamane017@gmail.com"

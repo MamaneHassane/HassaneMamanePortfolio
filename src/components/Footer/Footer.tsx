@@ -3,10 +3,10 @@ import * as React from "react";
 const Footer = () => {
     return(
         <footer className="flex-shrink-0 h-16 bg-cyan-900 flex mt-auto items-center text-white w-full">
-            <div className="flex mr-auto justify-center items-center text-sm text-white ml-4">
-                Mamane Hassane - 2024
+            <div className="flex mr-auto justify-center items-center text-sm text-white ml-1">
+                Mamane Hassane - 2❤24
             </div>
-            <div className="mr-6 flex flex-row">
+            <div className="mr-1 flex flex-row">
                 <div
                     className="w-12 h-12 rounded-full mr-2 flex justify-center items-center bg-white hover:bg-gray-300 hover:cursor-pointer">
                     <a href="https://github.com/MamaneHassane" aria-label="GitHub" className="footer-octicon"
