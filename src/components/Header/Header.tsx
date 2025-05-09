@@ -46,7 +46,7 @@ const Header = () => {
             <Link className="" to={"/"}>Education</Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
-            <Link className="" to={"/"}>Projects</Link>
+            <Link className="" to={"/projects"}>Projects</Link>
           </li>
           <li className="flex items-center px-4  hover:text-cyan-400">
             <Link className="" to={"/"}>Experience</Link>

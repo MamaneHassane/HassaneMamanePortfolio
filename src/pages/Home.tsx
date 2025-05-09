@@ -70,12 +70,12 @@ const Home = () => {
                 >
                   Appelez moi !
                 </a>
-                <a
+                
+                <Link 
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-gray-400 hover:text-white border-2 border-gray-400 rounded-lg font-bold"
-                  href="https://github.com/MamaneHassane?tab=repositories"
-                >
+                  to="/projects"> 
                   Projets
-                </a>
+                </Link> 
                 <button
                   className="ml-2 p-2 bg-white text-indigo-900 hover:bg-red-400 hover:text-white border-2 border-gray-400 hover:border-red-400 rounded-lg font-bold"
                 >
