@@ -8,6 +8,8 @@ import TechCard from "../components/TechCard/TechCard.tsx";
 // @ts-ignore
 import pexelsImage from "../images/pexels-kevin-bidwell-1373100.jpg";
 // @ts-ignore
+import banniereImage from "../images/bani.jpg";
+// @ts-ignore
 import dotnetImage from "../images/techs/dotnet_core.png";
 // @ts-ignore
 import angularImage from "../images/techs/angular.png";
@@ -86,7 +88,7 @@ const Home = () => {
             <div className="rounded-2xl flex flex-row justifiy-center sm:w-full my-1 mx-1">
               <img
                 className="flex rounded-2xl object-fit w-full h-full"
-                src={pexelsImage}
+                src={banniereImage}
                 alt="i_love_retro"
               />
             </div>
@@ -94,17 +96,17 @@ const Home = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 h-1/2 mb-1 mx-1">
             <div className="bg-white flex flex-col my-1 mx-1">
-              <div className="grid grid-cols-2">
+              <div className="grid "> {/*grid-cols-2*/}
                 <text className="text-xl sm:text-xl font-bold italic text-cyan-900 flex flex-col justify-center items-center">
-                  De l'expérience ? Visitez mon CV et mon Github
+                  Cliquez sur Projets ou visitez mon Github 
                 </text>
-                <text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
+                {/*<text className="text-sm sm:text-md sm:font-bold italic text-cyan-900 flex flex-col justify-center items-center">
                   Ingénieur Data/IA et Full-Stack en quête d'innovation – prêt à donner vie à vos projets Data, IA et Full-stack en alternance ! 😉
-                </text>
+                </text>*/}
               </div>
 
               <text className="flex flex-1 font-bold text-cyan-900 text-sm lg:text-md ml-2 items-center justify-center">
-                Mail {" "}
+                {" "}
                 <a
                   className="p-2 bg-red-400 mx-1 text-white text-sm lg:text-md rounded-full"
                   href="mailto:hassane.mamane017@gmail.com"
