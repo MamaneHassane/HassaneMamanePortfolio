@@ -50,8 +50,15 @@ const CurriculumVitae = () => {
             >
                 <div>
                     <img
-                        className={"w-full h-full object-contain"}
-                        src={require(`../images/cv/french/1.png`)}
+                        className={"w-full h-full"}
+                        src={require(`../images/cv/french/1.jpg`)}
+                        alt={"My Curriculum vitae"}
+                    />
+                </div>
+                <div>
+                    <img
+                        className={"w-full h-full"}
+                        src={require(`../images/cv/french/2.jpg`)}
                         alt={"My Curriculum vitae"}
                     />
                 </div>
