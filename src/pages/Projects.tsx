@@ -123,7 +123,7 @@ const Projects = () => {
 
         <ProjectCard
           image={video_game_shop}
-          title="Mini ERP Jeux Vidéos"
+          title="ERP pour une chaîne de magasins Jeux Vidéos"
           description="Backend ERP pour magasins de jeux vidéos (Consoles, Clients, Prêts…)."
           startDate="12/2023"
           endDate="04/2024"
