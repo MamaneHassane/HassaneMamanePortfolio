@@ -79,25 +79,25 @@ const Header = () => {
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center" to={"/"}>
+            <a className="flex flex-row items-center" href="https://www.linkedin.com/in/hassane-mamane/">
               <CIcon icon={cilNotes} className="h-4 mx-1  text-red-400" />
               Education
-            </Link>
+            </a>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center" to={"/"}>
+            <Link className="flex flex-row items-center" to={"/projects"}>
               <CIcon icon={cilLayers} className="h-4 mx-1  text-red-400" />
               Projects
             </Link>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center" to={"/"}>
+            <a className="flex flex-row items-center" href="https://www.linkedin.com/in/hassane-mamane/">
               <CIcon icon={cilLaptop} className="h-4 mx-1  text-red-400" />
               Experience
-            </Link>
+            </a>
           </li>
           <li className="flex items-center px-1 border-b-2 hover:text-red-400 py-2">
-            <Link className="flex flex-row items-center" to={"/"}>
+            <Link className="flex flex-row items-center" to={"/fun"}>
               <CIcon icon={cilHappy} className="h-4 mx-1  text-red-400" />
               Fun
             </Link>
